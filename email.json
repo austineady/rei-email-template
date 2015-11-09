@@ -1,0 +1,68 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "bought_item": {
+      "_id": 448372,
+      "name": "ENO SingleNest Hammock",
+      "price": "59.95",
+      "stars": "4.5/5",
+      "review_number": "300",
+      "free_shipping": true,
+      "reviews": [
+        {
+          "_id": 1,
+          "stars": "5/5",
+          "username": "StarKid4",
+          "date": "Jul 13, 2015",
+          "title": "Great Hammock",
+          "content": "This hammock is great!"
+        }
+      ],
+      "related_product": {
+        "_id": 558473,
+        "main_name": "ENO DoubleNest Hammock",
+        "main_price": "69.95",
+        "main_stars": "4.5/5",
+        "review_number": "352",
+        "free_shipping": true,
+        "main_link": "www.google.com",
+        "main_picture": "./assets/atlas.png",
+        "reviews": [
+          {
+            "_id": 1,
+            "stars": "5/5",
+            "username": "SDPete",
+            "date": "Jul 13, 2015",
+            "title": "Awesome!",
+            "content": "We've had one of these for years and have loved it. It packs down small so we can bring it along for every camping trip, even if we don't end up using it. My wife, young daughter and I can all comfortably fit in it. It's great for kicking back and reading a book, or taking a mid-day nap. My daughter has a lot of fun swinging in it. The materials are very strong, durable, lightweight and easy to clean. A great addition to our collection!",
+            "review_link": "www.google.com"
+          }
+        ],
+        "frequently_bought": [
+          {
+            "_id": 1,
+            "second_name": "ENO DryFly Rain Tarp",
+            "second_price": "79.95",
+            "second_link": "www.google.com",
+            "second_picture": "./assets/atlas.png"
+          },
+          {
+            "_id": 2,
+            "third_name": "ENO Atlas Hammock Suspension System",
+            "third_price": "29.95",
+            "third_link": "www.google.com",
+            "third_picture": "./assets/atlas.png"
+          },
+          {
+            "_id": 3,
+            "fourth_name": "ENO Indoor Hammock Hanging Kit",
+            "fourth_price": "11.95",
+            "fourth_link": "www.google.com",
+            "fourth_picture": "./assets/atlas.png"
+          }
+        ]
+      }
+    }
+  }
+]

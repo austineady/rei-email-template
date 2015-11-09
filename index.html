@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>REI Post-Purchase Email</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body style="margin:0;padding:0;">
+  <div style="background-color:#ffffff;" class="template">
+
+  </div>
+  <script id="email-template" type="text/x-handlebars-template">
+  <div style="color:#000000;background-color:#ffffff;font-family:Helvetica,sans-serif;margin:0;padding:0;width: 100%">
+    <table align="center" style="border-spacing:0;padding:0;border-collapse:separate;width:100%;color:#ffffff;"></table>
+    <table cellpadding="0" cellspacing="0" style="border-spacing:0;padding:0;border-collapse:separate;background-color:#ffffff;margin:0;width:100%">
+      <tbody>
+        <tr>
+          <td style="padding:0;border:0;border-collapse:collapse;background-color:#ffffff;max-width:100%;text-align:center;">
+            <img src="./assets/backcountry.png" style="width:580px;max-width:100%;margin:0;padding:0;">
+          </td>
+        </tr>
+      <tbody>
+    </table>
+    <table align="center" style="border-spacing:0;padding:10px 10px;border-collapse:separate;height:auto;max-width:600px;background-color:#ffffff;margin:0 auto;width:100%" cellpadding="0" cellspacing="0";>
+      <tbody>
+        <tr>
+          <td style="padding:0;border:0;border-collapse:collapse;">
+            <div style="display:block;margin:0 auto;max-width:580px;">
+              <table style="border-spacing:0;padding:0;border-collapse:separate;margin:0;max-width:600px;table-layout:fixed" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr>
+                    <td style="padding:0;border:0;border-collapse:collapse;padding-top:30px;padding-bottom:30px;width:580px;height:auto;background-color:#ffffff;">
+                      <h1 style="font-size:24px;color:#000000;font-family:Helvetica;text-align:center;">Hello {{firstname}}, we have found a couple items that you might be interested in!</h1>
+                      <dl style="display:inline-block;vertical-align:top;margin:0px;width:270px;text-align:left;">
+                        <img src="./assets/fly.jpeg" style="width:100%;height:auto;margin:0;padding:0;max-width:100%;">
+                      </dl>
+                      <dl style="display:inline-block;vertical-align:top;margin:0px;padding-left:15px;width:290px;background-color:#ffffff;">
+                        <h1 style="margin-top:20%;font-size:21px;color:#000000;">{{main_name}}</h1>
+                        <bdo style="display:inline-block;font-size:16px;width:75px;color:#000000;">${{main_price}}</bdo>
+                        <bdo style="display:inline-block;width:150px;">
+                          <span style="font-size:14px;color:##1f6ee8;line-height:14px;color:#1f6ee8;">
+                            <img src="./assets/five-star.png" style="height:17px;width:auto;margin:0;padding:0;"> ({{review_number}})
+                          </span>
+                        </bdo>
+                        <bdo style="display:inline-block;width:250px;text-align:center;margin-top:10px;">
+                          <img src="./assets/freeshipping.png" style="height:auto;width:200px;max-width:100%;margin:0;padding:0;">
+                        </bdo>
+                        </bdo>
+                      </dl>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:10px;padding-left:30px;padding-right:30px;border:0;border-collapse:collapse;background-image:url('./assets/background-blur.png');background-size:cover;background-repeat:no-repeat;width:100%;min-height:200px;text-align:center;">
+                    <div style="padding:0;margin:0;margin-top:20px;width:auto;height:17px;text-align:left;">
+                      <img src="./assets/five-star.png" style="height:17px;width:auto;margin:0;padding:0;max-width:100%;">
+                    </div>
+                    <h6 style="margin:0;margin-top:10px;font-size:15px;color:#ffffff;font-family:Helvetica,sans-serif;text-align:left;">{{username}} - {{date}}</h6>
+                    <h6 style="margin:0;margin-top:10px;font-size:20px;color:#ffffff;font-family:Helvetica,sans-serif;text-align:left;">{{title}}</h6>
+                    <p style="margin:0;margin-top:10px;font-size:15px;color:#ffffff;font-family:Helvetica,sans-serif;text-align:left;">{{content}}</p>
+                    <button style="margin-top:15px;border:1px solid #4bbbf4;background-color:#4bbbf4;width:100px;height:35px;color:white;line-height:30px;text-align:center;font-size:11px;">More Reviews</button>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="margin:0 auto;padding:0;padding-bottom:20px;border:0;border-collapse:collapse;background-color:#ffffff;width:100%;text-align:center;">
+                    <bdo style="max-width:800px;padding:0;margin:0;">
+                    <h1 style="font-size:36px;color:#000000;font-family:Helvetica,sans-serif;"> Frequently Bought Together: </h1>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;">
+                      <img src="./assets/fly.jpeg" style="height:auto;width:283px;max-width:100%;margin:0;margin-top:40px;padding:0;">
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;background-image:url('./assets/rainflybackground.png');background-size:cover;background-repeat:no-repeat;">
+                      <h1 style="margin-top:80px;color:#ffffff;font-size:21px;font-family:Helvetica,sans-serif;text-align:center;">{{second_name}}</h1>
+                      <h3 style="color:#ffffff;font-size:18px;font-family:Helvetica,sans-serif;">${{second_price}}</h3>
+                      <button style="border:1px solid #1f6ee8;margin:0;margin-top:20px;margin-bottom:15px;width:100px;height:35px;color:white;background-color:#1f6ee8;line-height:30px;text-align:center;font-size:11px;">Learn More</button>
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;background-image:url('./assets/atlasbackground.png');background-size:cover;background-repeat:no-repeat;">
+                      <h1 style="margin-top:80px;color:#ffffff;font-size:21px;font-family:Helvetica,sans-serif;">{{third_name}}</h1>
+                      <h3 style="color:#ffffff;font-size:18px;font-family:Helvetica,sans-serif;">${{third_price}}</h3>
+                      <button style="border:1px solid #1f6ee8;margin:0;margin-top:20px;margin-bottom:15px;width:100px;height:35px;color:white;background-color:#1f6ee8;line-height:30px;text-align:center;font-size:11px;">Learn More</button>
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;">
+                      <img src="./assets/atlas.jpeg" style="height:auto;width:283px;max-width:100%;margin:0;margin-top:40px;padding:0;">
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;">
+                      <img src="./assets/indoor-hang.jpeg" style="height:auto;width:283px;max-width:100%;margin:0;margin-top:40px;padding:0;">
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:45%;min-width:283px;height:260px;vertical-align:top;background-image:url('./assets/hangingbg.png');background-size:cover;background-repeat:no-repeat;">
+                      <h1 style="margin-top:80px;color:#ffffff;font-size:21px;font-family:Helvetica,sans-serif;">{{fourth_name}}</h1>
+                      <h3 style="color:#ffffff;font-size:18px;font-family:Helvetica,sans-serif;">${{fourth_price}}</h3>
+                      <button style="border:1px solid #1f6ee8;margin:0;margin-top:20px;margin-bottom:15px;width:100px;height:35px;color:white;background-color:#1f6ee8;line-height:30px;text-align:center;font-size:11px;">Learn More</button>
+                    </bdo>
+                    </bdo>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:5px;border:0;border-collapse:collapse;background-image:url('./assets/gift-center.png');background-size:cover;background-repeat:no-repeat;width:100%;">
+                    <bdo style="display:inline-block;vertical-align:top;padding:0;margin:2px;width:100px;">
+                      <ul style="list-style:none;text-align:left;color:#ffffff;font-size:12px;margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;">
+                        <li>- Camp & Hike</li>
+                        <li>- Climb</li>
+                        <li>- Cycle</li>
+                        <li>- Paddle</li>
+                        <li>- Run</li>
+                        <li>- Snow</li>
+                        <li>- Travel</li>
+                        <li>- Yoga</li>
+                      </ul>
+                    </bdo>
+                    <bdo style="display:inline-block;width:100px;padding:0;margin:2px;">
+                      <ul style="list-style:none;text-align:left;color:#ffffff;font-size:12px;margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;">
+                        <li>- Mens</li>
+                        <li>- Womens</li>
+                        <li>- Kids</li>
+                      </ul>
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:150px;height:100px;">
+                      <img src="./assets/rei-co-op-logo-white.png" style="width:150px;height:auto;max-width:100%;">
+                    </bdo>
+                    <bdo style="display:inline-block;padding:0;margin:2px;width:170px;height:100px;">
+                      <ul style="list-style:none;text-align:center;font-size:14px;margin:0;padding:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;">
+                        <li style="color:#ffffff">REI OUTLET</li>
+                        <li style="color:#9fc840">All Expert Advice</li>
+                        <li style="color:#9fc840">All Classes & Events</li>
+                        <li style="color:#9fc840">All REI Adventures</li>
+                        <li style="color:#9fc840">Blog</li>
+                        <li style="color:#9fc840">Memberships</li>
+                      </ul>
+                    </bdo>
+                  </td>
+                </tr>
+          </tbody>
+      </table>
+</div>
+</script>
+
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./bower_components/handlebars/handlebars.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
